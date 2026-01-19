@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2021 - 2025 the ThorVG project. All rights reserved.
 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,6 +24,10 @@
 #define _TVG_MATH_H_
 
  #define _USE_MATH_DEFINES
+
+#ifndef NOMINMAX
+    #define NOMINMAX
+#endif
 
 #include <float.h>
 #include <cmath>
